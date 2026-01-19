@@ -8,6 +8,8 @@ var newHit;
 
 document.querySelector("#pnlbtm").addEventListener("click",
     function(details){
+        console.log("in the pnl btm");
+        console.log(details.target.textContent); 
         // alert("chal rha hu bhai");
         // console.log(details.target);   // it'll give us a div
         // console.log(details.target.textContent);  // it'll give us the number in the form of string  
