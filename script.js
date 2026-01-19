@@ -6,7 +6,7 @@ var newHit;
 //                   event element ke parent par listener dhundega, vha bhi na milne par event parent ke 
 //                   parent ke parent par listener dhundega
 
-document.querySelector("#pnlbtm").addEventListener("click",
+document.querySelector(".bubble").addEventListener("click",
     function(details){
         console.log("in the pnl btm");
         console.log(details.target.textContent); 
