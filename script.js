@@ -6,10 +6,9 @@ var newHit;
 //                   event element ke parent par listener dhundega, vha bhi na milne par event parent ke 
 //                   parent ke parent par listener dhundega
 
-document.querySelector(".bubble").addEventListener("click",
+document.querySelector("#pnlbtm").addEventListener("click",
     function(details){
-        console.log("in the pnl btm");
-        console.log(details.target.textContent); 
+        // console.log("in the pnl btm");
         // alert("chal rha hu bhai");
         // console.log(details.target);   // it'll give us a div
         // console.log(details.target.textContent);  // it'll give us the number in the form of string  
